@@ -1,0 +1,28 @@
+
+    table {
+        border: 2px none black;
+        margin:auto;
+        border-collapse: collapse;
+        font-size: larger;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    tr:nth-last-of-type(odd) {
+        background-color: rgb(65, 58, 27);
+        color:bisque;
+    }
+    tr:nth-last-of-type(even) {
+        background-color: rgb(211, 179, 35);
+        color:bisque;
+    }
+    td, th {
+    padding: 1%;
+    text-align: center;
+    min-width: 120px;
+    max-height: 10px;
+    }
+    body {
+        background-color: rgb(122, 109, 49);
+    }
+    caption {
+        font-size: 300%;
+    }
