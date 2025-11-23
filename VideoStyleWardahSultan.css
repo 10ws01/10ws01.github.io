@@ -1,0 +1,54 @@
+
+
+/**** TABLE OF CONTENTS
+        **TAG STYLES**
+        **CLASSES**
+****/
+    
+/* TAG STYLES */
+    body {
+        background-color: rgb(187, 144, 187);
+        margin: 0 auto;
+        text-align:center;
+    }
+    h1 {
+        font-family: 'necto mono', monospace;
+        font-size: 300%; 
+        color:rgb(23, 7, 23);
+    }
+    h2 {
+        
+        font-size: 250%;
+        font-family:Courier, monospace;
+        color:rgb(41, 6, 41);
+        margin-bottom: 1%;
+    }
+    img {
+        max-width: 750px; 
+        margin-bottom: 2%;
+        margin: 0 auto;
+    }
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        color:rgb(90, 65, 90);
+        margin-bottom: 0.5%;
+        font-weight: bold;
+    }
+
+/* CLASSES */
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    
+
+        
+
+    
+   
+
+    
+    
