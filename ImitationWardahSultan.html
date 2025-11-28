@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Imitation</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" value="width=device-width initial-scale=1.0">
+            <meta name="keywords" value="Imitation">
+            <meta name="author" value="Wardah Sultan">
+            <meta name="description" value="Imitation">
+            
+        </head>
+        <body style="background-color: white;">
+            <style>
+                div, img {
+                    margin: 7px;
+                }
+                img.penguin {
+                    
+                    border-radius: 50%; 
+                    filter: sepia(40%);
+                    border: 1px solid black;
+                    /*add white backing*/
+                }
+                .football {
+                    border: 49px solid white;
+                    border-image: url(Images/tic-tac-toe.png) 49 round;
+                    filter: grayscale(100%);
+                    /* add white margin*/
+                }
+                img.dinosaur {
+                    /*make shaodw work*/
+                    filter: drop-shadow(10px 10px 2px black) hue-rotate(90deg);
+                    /* -webkit-filter: drop-shadow(10px 10px 2px black) hue-rotate(90deg); */
+                }
+                
+                .butterfly {
+                    filter: invert(100%) opacity(70%);
+                    border-radius: 20% 0%;
+                    /* background-color: white; */
+                }
+                .theater {
+                filter: blur(5px); text-align: center;
+                }
+                img.seagull {
+                    box-shadow: 2px 5px 10px black;
+                    background-image: linear-gradient(to bottom right, rgb(106, 115, 240),rgb(162, 167, 243),rgb(255, 255, 255));
+                    border-radius: 0%;
+                    /*not supposed be rounded corcers*/
+                }
+            
+          
+                
+            </style>
+
+            
+                <img class="penguin wb"  src="Images/penguins.jpg" alt="" class="penguin">
+            
+
+          
+                <img src="Images/football_field.jpg" alt="" class="football">
+            
+
+           
+                <img src="Images/dinosaur.png" alt="" class="dinosaur">
+            
+            
+
+        
+           
+                <img src="Images/seagull.png" alt="" class="seagull">
+         
+
+             
+                <img src="Images/butterfly.jpg" alt="" class="butterfly">
+           
+
+            <div style="width: max-content;padding: 1%;position:relative; display: inline-block;">
+                <img src="Images/theater_stage.jpg" alt="" class="theater"><span style="position: absolute;top: 40%;left: 22%; font-family: Arial, Helvetica, sans-serif; font-size: 300%;color: white; text-shadow: 4px 4px 4px black;">Presenting</span>
+            </div>
+        </body>
+
+    </html>             
