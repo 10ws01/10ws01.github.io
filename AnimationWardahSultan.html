@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Animation</title>
+            <meta name="author">
+            <meta name="description">
+            <meta name="keywords">
+            <meta name="viewport" value="width=device-width initial-scale=1.0">
+            <meta charset="UTF-8">
+        </head>
+
+        <body style="background-color: rgb(109, 125, 150);">
+            <style>
+                
+
+                div {
+                    display: inline-block;
+                    background-color: aliceblue;
+                    width: 25%;
+                    padding: 3%;
+                    margin: 1%;
+                    transition: background-color 400ms; 
+                    
+                }
+                div:hover {
+                    background-color: rgb(78, 125, 165);
+                }
+                
+                h1 {
+                    text-align: center;
+                    color: rgb(2, 14, 26);
+                }
+                
+                section {
+                    width: 100%;
+                    margin:auto;
+                }
+                span {
+                    
+                    text-align: center;
+                    vertical-align: middle;
+                }
+                .q {
+                    color:  rgb(0, 9, 17);
+                }
+                .a {
+                    color:aliceblue;
+                }
+                @keyframes flash {
+                    0% {
+                        background-color: rgb(109, 125, 150);
+                    }
+                    25% {
+                        background-color: rgb(78, 125, 165);
+                    }
+                    50% {
+                    background-color: aliceblue;
+
+                    }
+                    100% {
+                        background-color: rgb(109, 125, 150);
+                       
+                    }
+                }
+                section {
+                    animation: flash 0.5s linear 2 running ;
+                }
+            </style>
+            
+            <h1>Review Cards</h1> 
+            <section>
+                <div class="q"><span>Question:When did the American Revolution start?</span><br><span class="a">Answer: 1775</span></div>
+                <div class="q"><span>Question:When did the American Revolution end?</span><br><span class="a">Answer:1783</span></div>
+                <div class="q"><span>Question:When did the Civil War start?</span><br><span class="a">Answer:1761</span></div>
+                <div class="q"><span>Question:When did the Civil War end?</span><br><span class="a">Answer:1765</span></div>
+                <div class="q"><span>Question:When did WW1 start? </span><br><span class="a">Answer:1914</span></div>
+                <div class="q"><span>Question:When did WW1 end?</span><br><span class="a">Answer:1918</span></div>
+                <div class="q"><span>Question:When did WW2 start?</span><br><span class="a">Answer:1939</span></div>
+                <div class="q"><span>Question:When did WW2 end?</span><br><span class="a">Answer:1945</span></div>
+                <div class="q"><span>Question:Which US war was the deadliest?</span><br><span class="a">Answer:The Civil War</span></div>
+            </section>
+            
+
+        </body>
+    </html>
