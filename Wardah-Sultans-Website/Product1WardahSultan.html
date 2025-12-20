@@ -1,74 +1,53 @@
 <!DOCTYPE html>
     <html lang="en">
-        <title>Site</title>
+        <title>Wicks of Wonder Glitter Candles</title>
         <meta charset="UTF-8">
-        <meta name="author" content="Wardah Sultan">
+        <meta name="author" content="Aiysha Laith">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta name="description" content="site">
-        <meta name="keywords" content="site">
+        <meta name="description" content="Wicks of Wonder glitter candles, perfect for gifting!">
+        <meta name="keywords" content="Candles, Glitter candles, Wicks of Wonder, gift">
         <link rel="stylesheet" type="text/css" href="CSSFiles/SiteStyleWardahSultan.css">
         <link rel="icon" href="Images/WicksofWonderLogoFava.png" type="image/png">
         <body>
-            <!-- Include div, flexbox elements, and CSS grid elements as part of the layout for at least some pages 
-             Every page should include at least one image or other type of visual element.
-
-            Your site should include at least one simple list and one complex list with nesting.
-            1 table             
-            A form with at least 3 elements:
-            Both internal (navigation) links and external links, all using descriptive text:
-
-            At least one video or animation, optimized for the web and made accessible to users with visual and hearing impairments:
-
-            -->
-
-            <!-- list here
-            table here
-            external links
-            video also here
-
-            nav 
-            banner
-
-            footer -->
+           
             <img class="logo" src="Images/WicksofWonderLogo.png" alt="Wick of Wonder Logo">
             <div class="nav">
-                
-                
-
-                <a href="SiteWardahSultan.html" target="_self"><div class="navItem">Home</div></a> 
-                <a href="ProductsWardahSultan.html" target="_self"><div class="navItem">Products</div></a>
-                <a href="DemoVidsWardahSultan.html" target="_self"><div class="navItem">Tutorials</div></a>
-                <a href="ContactWardahSultan.html" target="_self"><div class="navItem">Contact</div></a> 
+                <a href="SiteWardahSultan.html" target="_self">
+                    <div class="navItem">Home</div>
+                </a> 
+                <a href="ProductsWardahSultan.html" target="_self">
+                    <div class="navItem">Products</div>
+                </a>
+                <a href="DemoVidsWardahSultan.html" target="_self">
+                    <div class="navItem">Tutorials</div>
+                </a>
+                <a href="ContactWardahSultan.html" target="_self">
+                    <div class="navItem">Contact</div>
+                </a> 
             </div>
-            <div class="banner">
-                
-                <h1>Welcome!</h1>
+            <div class="banner" style="background-image: url(Images/SiteBack.jpg);">
+                <h1>Product Info</h1>
             </div>
-            <section style="padding: 1%; margin: 1%; overflow: auto;">
-                <img src="Images/GlitterCandles.jpg" alt="Flowers" width="66%" height="auto">
-
-                <div style="float: right; width:29dvw; border-radius: 2%;">
-                    <!-- Title -->
-                     <h2>Scent Therapy Candles</h2>
-                    <!-- price -->
+            <section class="product">
+                
+                
+                <div class="pdescrip">
+                     <h2>Glitter Candles</h2>
                      <p>15$ per item</p>
-                    <!-- quantity -->
-                     <!-- type selection -->
-                    <!-- Add to cart -->
 
-                     <form >
+                     <form>
                         Type
                         <select name="Type">
-                            <option value="1">Value 1</option>
-                            <option value="2">Value 2</option>
-                            <option value="3">Value 3</option>
+                            <option value="Unselected">Select</option>
+                            <option value="Orange Blossom">Orange Blossom</option>
+                            <option value="Ocean Breeze">Ocean Breeze</option>
+                            <option value="Midnight Berry">Midnight Berry</option>
+                            <option value="Autumnal Aroma">Autumnal Aroma</option>
+                            <option value="Fairy Dust">Fairy Dust</option>
+                            <option value="Vanilla Sparkle">Vanilla Sparkle</option>
                         </select>
                         Quanitity
-                        <select name="Quanitity">
-                            <option value="1">Value 1</option>
-                            <option value="2">Value 2</option>
-                            <option value="3">Value 3</option>
-                        </select>
+                        <input type="number">
                         <input type="submit" value="Add to cart">
                      </form>
                
@@ -78,7 +57,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar libero lorem, sit amet ultricies orci malesuada ac. Sed nisi quam, rutrum ut risus at, hendrerit tempus nunc. Nam ac feugiat nunc. Maecenas finibus lacus metus, quis pellentesque urna volutpat eu. Integer non lorem justo. Vestibulum dapibus mauris eget feugiat vestibulum. Ut finibus nibh elementum scelerisque vehicula. Donec sit amet tellus sollicitudin, egestas urna eu, facilisis turpis. Fusce vitae interdum sem. Pellentesque in pellentesque urna, in luctus tortor. Aenean sed mauris a mi ultrices mollis.
 
                      </p>
-                     <table>
+                     <table tabindex="0">
+                        <caption>Candle Options</caption>
                         <tr>
                             <th>Name</th>
                             <th>Color</th>
@@ -95,38 +75,42 @@
                             <th>Ocean Breeze</th>
                             <td>Minty green/teal</td>
                             <td>Cedarwood + Jasmine + Citrus</td>
-                            <td rowspan="4">None</td>
+                            <td rowspan="5">None</td>
                         </tr>
                         <tr>
                             <th>Midnight Berry</th>
-                            <th>Purple</th>
-                            <th>Strawbery + Musk</th>
+                            <td>Purple</td>
+                            <td>Strawbery + Musk</td>
                             <!-- <th>None</th> -->
                 
                         </tr>
                         <tr>
-                            <th>Ocean Breeze</th>
-                            <td>Bronxe</td>
+                            <th>Autumnal Aroma</th>
+                            <td>Brown</td>
                             <td>Cedarwood + Musk + Cinammin</td>
                             <!-- <td>None</td> -->
                         </tr>
                         <tr>
                             <th>Fairy Dust</th>
-                            <th>Pink</th>
-                            <th>Strawbery + Cedarwood</th>
+                            <td>Pink</td>
+                            <td>Strawbery + Cedarwood</td>
                             <!-- <th>None</th> -->
                         </tr>
                         <tr>
                             <th>Vanilla Sparkle</th>
-                            <th>White</th>
-                            <th>Vanilla + Cinammin</th>
+                            <td>White</td>
+                            <td>Vanilla + Cinammin</td>
                             <!-- <th>None</th> -->
                         </tr>
 
                      </table>
-                    
-
+                </div>
+                <figure>
+                <img src="Images/GlitterCandles.jpg" alt="Picture of glitter candles" width="66%" height="auto">
+                <figcaption>glitter candles</figcaption>
+                </figure>
             </section>
+            
             <div class="footer">
                 <ul class="FooterList">
                     <li>
@@ -148,5 +132,4 @@
             </div>
         </body>
     </html>
-
 
