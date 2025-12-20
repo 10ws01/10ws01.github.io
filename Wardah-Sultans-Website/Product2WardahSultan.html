@@ -1,89 +1,65 @@
 <!DOCTYPE html>
     <html lang="en">
-        <title>Site</title>
+        <title>Wicks of Wonder Custom Candles</title>
         <meta charset="UTF-8">
-        <meta name="author" content="Wardah Sultan">
+        <meta name="author" content="Aiysha Laith">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta name="description" content="site">
-        <meta name="keywords" content="site">
+        <meta name="description" content="Wicks of Wonder Costum gifting candles, perfect for party favors!">
+        <meta name="keywords" content="party favor, candle, custom candle, gift, wicks of wonder">
         <link rel="stylesheet" type="text/css" href="CSSFiles/SiteStyleWardahSultan.css">
         <link rel="icon" href="Images/WicksofWonderLogoFava.png" type="image/png">
 
         <body>
-            <!-- Include div, flexbox elements, and CSS grid elements as part of the layout for at least some pages 
-             Every page should include at least one image or other type of visual element.
-
-            Your site should include at least one simple list and one complex list with nesting.
-            1 table             
-            A form with at least 3 elements:
-            Both internal (navigation) links and external links, all using descriptive text:
-
-            At least one video or animation, optimized for the web and made accessible to users with visual and hearing impairments:
-
-            -->
-
-            <!-- list here
-            table here
-            external links
-            video also here
-
-            nav 
-            banner
-
-            footer -->
+            
+            
             <img class="logo" src="Images/WicksofWonderLogo.png" alt="Wick of Wonder Logo">
-
             <div class="nav">
-                <a href="SiteWardahSultan.html" target="_self"><div class="navItem">Home</div></a> 
-                <a href="ProductsWardahSultan.html" target="_self"><div class="navItem">Products</div></a>
-                <a href="DemoVidsWardahSultan.html" target="_self"><div class="navItem">Tutorials</div></a>
-                <a href="ContactWardahSultan.html" target="_self"><div class="navItem">Contact</div></a> 
+                <a href="SiteWardahSultan.html" target="_self">
+                    <div class="navItem">Home</div>
+                </a> 
+                <a href="ProductsWardahSultan.html" target="_self">
+                    <div class="navItem">Products</div>
+                </a>
+                <a href="DemoVidsWardahSultan.html" target="_self">
+                    <div class="navItem">Tutorials</div>
+                </a>
+                <a href="ContactWardahSultan.html" target="_self">
+                    <div class="navItem">Contact</div>
+                </a> 
             </div>
-            <div class="banner">
+            <div class="banner" style="background-image: url(Images/SiteBack.jpg);">
+                <h1>Product Info</h1>
+            </div>
+            <section class="product">
                 
-                <h1>Welcome!</h1>
-            </div>
-            <section style="padding: 1%; margin: 1%; overflow: auto;">
-                <img src="Images/TeaCandles.jpg" alt="Flowers" width="66%" height="auto">
-
-                <div style="float: right; width:29dvw; border-radius: 2%;">
-                    <!-- Title -->
-                     <h2>Product 1</h2>
-                    <!-- price -->
-                     <p>15$ per item</p>
-                    <!-- quantity -->
-                     <!-- type selection -->
-                    <!-- Add to cart -->
-
-                     <form >
+                
+                <div class="pdescrip">
+                     <h2>Custom Gifting Candles</h2>
+                     <p>5$ per item</p>
+                     <form>
                         Type
                         <select name="Type">
-                            <option value="1">Value 1</option>
-                            <option value="2">Value 2</option>
-                            <option value="3">Value 3</option>
+                            <option value="Unselected">Select</option>
+                            <option value="Blue Moon">Blue Moon</option>
+                            <option value="Berry Pink">Berry Pink</option>
+                            <option value="Vanilla">Vanilla</option>
+                            <option value="Cinniamin Delizia">Cinniamin Delizia</option>
                         </select>
                         Quanitity
-                        <select name="Quanitity">
-                            <option value="1">Value 1</option>
-                            <option value="2">Value 2</option>
-                            <option value="3">Value 3</option>
-                        </select>
+                        <input type="number">
                         <input type="submit" value="Add to cart">
                      </form>
-                     
-               
                     <!-- details -->
-                     <h3>Loerm Ipsum</h3>
-                     <p>
+                    <h3>Loerm Ipsum</h3>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar libero lorem, sit amet ultricies orci malesuada ac. Sed nisi quam, rutrum ut risus at, hendrerit tempus nunc. Nam ac feugiat nunc. Maecenas finibus lacus metus, quis pellentesque urna volutpat eu. Integer non lorem justo. Vestibulum dapibus mauris eget feugiat vestibulum. Ut finibus nibh elementum scelerisque vehicula. Donec sit amet tellus sollicitudin, egestas urna eu, facilisis turpis. Fusce vitae interdum sem. Pellentesque in pellentesque urna, in luctus tortor. Aenean sed mauris a mi ultrices mollis.
-                     </p>
-                    
-                     <table>
+                    </p>
+                    <table tabindex="0">
                         <tr>
                             <th>Name</th>
-                            <th>Color</th>
+                            <th class="fit">Color</th>
                             <th>Scent</th>
-                            <th>Allergans</th>
+                            <th class="fit">Allergans</th>
                         </tr>
                         <tr>
                             <th>Blue Moon</th>
@@ -95,19 +71,25 @@
                             <th>Berry Pink</th>
                             <td>Pink</td>
                             <td>Stawberry + Rasberry + Bluberry</td>
-                            
                         </tr>
-                        
                         <tr>
                             <th>Vanilla</th>
                             <td>White</td>
                             <td>Vanilla</td>
                         </tr>
+                        <tr>
+                            <th>Cinniamin Delizia</th>
+                            <td class="fit">Brown</td>
+                            <td>Cinammin + Vanilla</td>
+                        </tr>
                         
-
                      </table>
+                </div>
+                 <figure>
+                <img src="Images/TeaCandles.jpg" alt="Picture of small colored candles in color matched boxes" width="60%" height="auto">
+                <figcaption>Glitter Candles</figcaption>
+                </figure>
             </section>
-            
             <div class="footer">
                 <ul class="FooterList">
                     <li>
@@ -127,7 +109,8 @@
                 </ul>
                 <sub>&copy; 2025</sub>
             </div>
+            
         </body>
+        
     </html>
-
 
