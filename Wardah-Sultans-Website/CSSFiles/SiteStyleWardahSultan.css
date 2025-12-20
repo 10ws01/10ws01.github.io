@@ -1,6 +1,4 @@
-
-
- /* nav*/
+/* nav*/
  @keyframes nav {
         0% {
          background-color: rgba(138, 197, 249, 0.5);
@@ -57,7 +55,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: rgb(2, 15, 26);  
         max-width: 100vw; 
-        background-color: rgb(228, 230, 231); 
+        background-color: #E0E2E4; 
         overflow-x: hidden;
 }
 /* Banner */
@@ -70,62 +68,78 @@
         background-image:linear-gradient(to bottom right, rgb(202, 227, 249),rgb(6, 37, 63));
         background-image: url(Images/SiteBack.jpg);
         font-size: 400%;
+        -webkit-text-stroke-width: 2px; /* Outline width */
+        -webkit-text-stroke-color: aliceblue; /* Outline color */
         display: table-cell;
         
     }
 
- div {
-                    display: inline-block;
-                    /* background-color: aliceblue;
-                    padding:0%;
-                    margin: 1%;
-                    transition: background-color 400ms;
-                    border-radius: 0%; */
+    div {
+        display: inline-block;
              
                     
-                } 
-                .card {
-                    width: 25vw;
-                    display: inline-block;
-                    background-color: aliceblue;
-                    padding:0%;
-                    margin: 1%;
-                    transition: background-color 400ms;
-                    border-radius: 2%;
-                    margin: 5% 5% 5% 5%;
-                }
-                .card img {
-                    border-radius: 2% 2% 0% 0%;
-                }
-                div.card:hover {
-                    background-color: rgb(138, 189, 235);
-                }
-                img {
-                    
-                    border-radius:0%;
-                    padding: 0%;
-                }
-                h3 {
-                    margin-top: 1%;
-                    margin-bottom: 5%;
-                }
-            .details {
-                background-color: transparent;
-                padding: 3%;
-                font-weight: bolder;
-            }
+    } 
+    .card {
+        width: 25vw;
+        display: inline-block;
+        background-color: aliceblue;
+        padding:0%;
+        margin: 1%;
+        transition: background-color 400ms;
+        border-radius: 2%;
+        margin: 5% 5% 5% 5%;
+    }
+    .vcard {
+        width: 25vw;
+        height: 33vw;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:0%;
+        margin: 1%;
+        transition: background-color 400ms;
+        border-radius: 2%;
+        margin: 5% 5% 5% 5%;
+    }
+    video {
+        width:15vw;
+        border-radius: 2%;
 
-            form, select, input {
-                display: block;
-            }
-            select, input, textarea, button, input {
-                border: none;
-                padding: 2%;
-                width: 100%;
-                margin: 1%;
-                border-radius: 5%;
+    }
 
+            .card img {
+                border-radius: 2% 2% 0% 0%;
             }
+            div.card:hover {
+                background-color: rgb(138, 189, 235);
+            }
+            img {
+                
+                border-radius:0%;
+                padding: 0%;
+            }
+            h3 {
+                margin-top: 1%;
+                margin-bottom: 5%;
+            }
+        .details {
+            background-color: transparent;
+            padding: 3%;
+            font-weight: bolder;
+        }
+
+        form, select, input {
+            display: block;
+        }
+        select, input, textarea, button {
+            border: none;
+            padding: 2%;
+            width: 100%;
+            margin: 1%;
+            border-radius: 5%;
+
+        }
             
 
             .footer {
@@ -143,12 +157,16 @@
             flex-direction: row;
             flex-wrap: wrap;
             width:80vw;
-            margin:auto
-
-
-
-            
+            margin:auto;
         }
+        .flextl {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin:auto;
+        }
+        
+       
 
         /*change for mobile*/
         .FooterList {
@@ -209,6 +227,7 @@
     }
     h1,h2,h3,h4,h5,h6 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
     }
     .aliceblue {
         background-color: aliceblue;
@@ -218,9 +237,7 @@
         background-color: rgb(102, 133, 160);
     }
     .timeline {
-        column-count: 3;
-          
-
+        column-count: 2;
     }
     .year {
         font-size: 150%;
@@ -233,7 +250,6 @@
         font-size: 125%;
     }
     .timeline li {
-        /* list-style-type: none;  */
         padding: 5px;
         padding-left: 1px;
 
@@ -243,9 +259,23 @@
     }
 
     table, tr, td, th {
-        border: black thin solid;
+        border: rgb(1, 10, 18) thick solid;
         border-collapse: collapse;
+        
     }
+    th {
+        background-color:rgb(1, 10, 18);
+        color: aliceblue;
+        padding: 1%;
+    }
+    td {
+        background-color: aliceblue;
+        text-align: center;
+        vertical-align: middle;
+        padding: 1%;
+    }
+    
+    
     .GridHead {
         grid-area: hd;
         text-align: center;
@@ -264,10 +294,10 @@
     .GridSSide2 {
         grid-area: ss2;
         padding:1% 5%;
-        background-color: rgb(17, 92, 157);
+        background-color: #0e2234;
         border-radius: 10%;
         margin: 3%;
-        /* text-align: center; */
+        color: rgb(192, 218, 240);
     }
     
     .GridSSide a, .GridSSide2 a {
@@ -286,6 +316,7 @@
         border-radius: 10% / 10%;
         margin: 3%;
         max-width: 100vw;
+        overflow:auto;
 
     }
     .sgrid {
@@ -303,6 +334,7 @@
     .center {
         vertical-align: center;
         justify-content: center;
+
     }
     a {
         text-decoration: none;
@@ -325,4 +357,42 @@
         padding: 2%;
         border-radius: 10%;
     }
+    .border {
+        border: dashed rgb(3, 22, 38) thick;
+    }
+    .flexc {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+    figcaption {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    figure {
+        display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin:auto;
+            justify-content: center;
+            align-items: center;
+    }
+    .product {
+        padding: 1%; 
+        margin: 1%; 
+        overflow: auto;
+        margin: 1%;
+        max-width: 90%;
+    }
+
+    .pdescrip {
+        float: right;
+        max-width:33%;
+        border-radius:2%;
+    }
+    
+
+
     
