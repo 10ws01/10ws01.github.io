@@ -394,6 +394,10 @@
         vertical-align: center;
         justify-content: center;
     }
+    .VideoTitle {
+        font-size: 1px;
+        margin: 1%;
+    }
     .DarkBlueText a:link {
         color:rgb(2, 15, 26);      
     }
@@ -406,9 +410,6 @@
     .DarkBlueText a:hover {
         color:rgb(2, 15, 26);      
     }
-    
-    
-    
 /*Product Pages Styles*/  
     .product {
         padding: 1%; 
