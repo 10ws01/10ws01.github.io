@@ -1,17 +1,19 @@
 <!DOCTYPE html>
     <html lang="en">
-        <title>Wicks of Wonder Custom Candles</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Aiysha Laith">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta name="description" content="Wicks of Wonder Costum gifting candles, perfect for party favors!">
-        <meta name="keywords" content="party favor, candle, custom candle, gift, wicks of wonder">
-        <link rel="stylesheet" type="text/css" href="CSSFiles/SiteStyleWardahSultan.css">
-        <link rel="icon" href="Images/WicksofWonderLogoFava.png" type="image/png">
-
-        <body>
-            
-            
+        <head>
+            <title>Wicks of Wonder Party Favor</title>
+            <meta charset="UTF-8">
+            <meta name="author" content="Aiysha Laith">
+            <meta name="viewport" content="width=device-width initial-scale=1.0">
+            <meta name="description" content="Wicks of Wonder Costum gifting candles, perfect for party favors!">
+            <meta name="keywords" content="party favor, candle, gift, wicks of wonder">
+            <link rel="stylesheet" type="text/css" href="CSSFiles/SiteStyleWardahSultan.css" media="screen and (min-width: 601px)">
+            <link rel="stylesheet" type="text/css" href="CSSFiles/MobileSiteStyleWardahSultan.css" media="screen and (max-width: 600px)">
+            <link rel="icon" href="Images/WicksofWonderLogoFava.png" type="image/png">
+            <link rel="stylesheet" type="text/css" href="CSSFiles/LargeDisplaySiteWardahSultan.css" media="screen and (min-width: 1800px)">
+        </head>
+        <body>            
+            <!--Nav Bar-->
             <img class="logo" src="Images/WicksofWonderLogo.png" alt="Wick of Wonder Logo">
             <div class="nav">
                 <a href="SiteWardahSultan.html" target="_self">
@@ -27,16 +29,23 @@
                     <div class="navItem">Contact</div>
                 </a> 
             </div>
+            <!--Banner-->
             <div class="banner" style="background-image: url(Images/SiteBack.jpg);">
                 <h1>Product Info</h1>
             </div>
+            <!--Product Info-->
             <section class="product">
-                
-                
+                <!--Image for SMALL screens-->
+                <figure class="PSScreen">
+                    <img src="Images/TeaCandles.jpg" alt="Picture of small colored candles in color matched boxes" width="66%" height="auto">
+                    <figcaption>Party Favor Candles</figcaption>
+                </figure>
+                <!-- details -->
                 <div class="pdescrip">
-                     <h2>Custom Gifting Candles</h2>
-                     <p>5$ per item</p>
-                     <form>
+                    <h2>Party Favor Candles</h2>
+                    <p>5$ per item</p>
+                    <!--Selection Form-->
+                    <form>
                         Type
                         <select name="Type">
                             <option value="Unselected">Select</option>
@@ -47,14 +56,17 @@
                         </select>
                         Quanitity
                         <input type="number">
-                        <input type="submit" value="Add to cart">
-                     </form>
+                        <button type="submit">Add to Cart</button>
+                    </form>
                     <!-- details -->
                     <h3>Loerm Ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar libero lorem, sit amet ultricies orci malesuada ac. Sed nisi quam, rutrum ut risus at, hendrerit tempus nunc. Nam ac feugiat nunc. Maecenas finibus lacus metus, quis pellentesque urna volutpat eu. Integer non lorem justo. Vestibulum dapibus mauris eget feugiat vestibulum. Ut finibus nibh elementum scelerisque vehicula. Donec sit amet tellus sollicitudin, egestas urna eu, facilisis turpis. Fusce vitae interdum sem. Pellentesque in pellentesque urna, in luctus tortor. Aenean sed mauris a mi ultrices mollis.
                     </p>
+                    <!--Table for candle selection options-->
                     <table tabindex="0">
+                        <caption>Candle Options</caption>
+
                         <tr>
                             <th>Name</th>
                             <th class="fit">Color</th>
@@ -85,11 +97,13 @@
                         
                      </table>
                 </div>
-                 <figure>
-                <img src="Images/TeaCandles.jpg" alt="Picture of small colored candles in color matched boxes" width="60%" height="auto">
-                <figcaption>Glitter Candles</figcaption>
+                <!--Image for LARGE screens-->
+                <figure class="PLScreen">
+                    <img src="Images/TeaCandles.jpg" alt="Picture of small colored candles in color matched boxes" width="60%" height="auto">
+                    <figcaption>Party Favor Candles</figcaption>
                 </figure>
             </section>
+            <!--Footer-->
             <div class="footer">
                 <ul class="FooterList">
                     <li>
