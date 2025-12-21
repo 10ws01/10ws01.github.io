@@ -1,15 +1,19 @@
 <!DOCTYPE html>
     <html lang="en">
-        <title>Wicks of Wonder Glitter Candles</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Aiysha Laith">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta name="description" content="Wicks of Wonder glitter candles, perfect for gifting!">
-        <meta name="keywords" content="Candles, Glitter candles, Wicks of Wonder, gift">
-        <link rel="stylesheet" type="text/css" href="CSSFiles/SiteStyleWardahSultan.css">
-        <link rel="icon" href="Images/WicksofWonderLogoFava.png" type="image/png">
-        <body>
-           
+        <head>
+            <title>Wicks of Wonder Glitter Candles</title>
+            <meta charset="UTF-8">
+            <meta name="author" content="Aiysha Laith">
+            <meta name="viewport" content="width=device-width initial-scale=1.0">
+            <meta name="description" content="Wicks of Wonder glitter candles, perfect for gifting!">
+            <meta name="keywords" content="Candles, Glitter candles, Wicks of Wonder, gift">
+            <link rel="stylesheet" type="text/css" href="CSSFiles/SiteStyleWardahSultan.css" media="screen and (min-width: 601px)">
+            <link rel="stylesheet" type="text/css" href="CSSFiles/MobileSiteStyleWardahSultan.css" media="screen and (max-width: 600px)">
+            <link rel="icon" href="Images/WicksofWonderLogoFava.png" type="image/png">
+            <link rel="stylesheet" type="text/css" href="CSSFiles/LargeDisplaySiteWardahSultan.css" media="screen and (min-width: 1800px)">
+            <body>
+        </head>       
+        <!--nav bar-->
             <img class="logo" src="Images/WicksofWonderLogo.png" alt="Wick of Wonder Logo">
             <div class="nav">
                 <a href="SiteWardahSultan.html" target="_self">
@@ -25,16 +29,22 @@
                     <div class="navItem">Contact</div>
                 </a> 
             </div>
+            <!--banner-->
             <div class="banner" style="background-image: url(Images/SiteBack.jpg);">
                 <h1>Product Info</h1>
             </div>
+            <!--product info and pic-->
             <section class="product">
-                
-                
+                <!--Image for SMALL screens-->
+                <figure class="PSScreen">
+                    <img src="Images/GlitterCandles.jpg" alt="Picture of glitter candles" width="66%" height="auto">
+                    <figcaption>glitter candles</figcaption>
+                </figure>
+                <!-- details -->
                 <div class="pdescrip">
                      <h2>Glitter Candles</h2>
                      <p>15$ per item</p>
-
+                        <!-- buying form -->
                      <form>
                         Type
                         <select name="Type">
@@ -48,16 +58,15 @@
                         </select>
                         Quanitity
                         <input type="number">
-                        <input type="submit" value="Add to cart">
-                     </form>
-               
+                        <button type="submit">Add to Cart</button>
+                     </form>               
                     <!-- details -->
-                     <h3>Loerm Ipsum</h3>
-                     <p>
+                    <h3>Loerm Ipsum</h3>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar libero lorem, sit amet ultricies orci malesuada ac. Sed nisi quam, rutrum ut risus at, hendrerit tempus nunc. Nam ac feugiat nunc. Maecenas finibus lacus metus, quis pellentesque urna volutpat eu. Integer non lorem justo. Vestibulum dapibus mauris eget feugiat vestibulum. Ut finibus nibh elementum scelerisque vehicula. Donec sit amet tellus sollicitudin, egestas urna eu, facilisis turpis. Fusce vitae interdum sem. Pellentesque in pellentesque urna, in luctus tortor. Aenean sed mauris a mi ultrices mollis.
-
-                     </p>
-                     <table tabindex="0">
+                    </p>
+                    <!--Description table-->
+                    <table tabindex="0">
                         <caption>Candle Options</caption>
                         <tr>
                             <th>Name</th>
@@ -81,8 +90,7 @@
                             <th>Midnight Berry</th>
                             <td>Purple</td>
                             <td>Strawbery + Musk</td>
-                            <!-- <th>None</th> -->
-                
+                            <!-- <th>None</th> -->                
                         </tr>
                         <tr>
                             <th>Autumnal Aroma</th>
@@ -105,12 +113,13 @@
 
                      </table>
                 </div>
-                <figure>
-                <img src="Images/GlitterCandles.jpg" alt="Picture of glitter candles" width="66%" height="auto">
-                <figcaption>glitter candles</figcaption>
+                <!--Image for LARGE screens-->
+                <figure class="PLScreen">
+                    <img src="Images/GlitterCandles.jpg" alt="Picture of glitter candles" width="66%" height="auto">
+                    <figcaption>glitter candles</figcaption>
                 </figure>
             </section>
-            
+            <!--Footer-->
             <div class="footer">
                 <ul class="FooterList">
                     <li>
